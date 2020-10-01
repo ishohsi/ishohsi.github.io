@@ -9,6 +9,8 @@ function startTime(){
     h=checkTime(h);
     m=checkTime(m);
 	s=checkTime(s);
+	mm=checkTime(mm);
+	dd=checkTime(dd);
 	document.getElementById('txt').innerHTML=yy+"."+mm+"."+dd+" "+h+":"+m+":"+s;
 	t=setTimeout(function(){startTime()},500);
 }
